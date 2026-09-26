@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect Pro - School Parent-Teacher Management System</title>
+    <meta name="description" content="EduConnect Pro - A comprehensive school management system for parents, teachers, and administrators.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- React & ReactDOM UMD CDNs -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel for JSX compilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Chart.js for reports & charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- App Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-indigo-500 selection:text-white">
+    <!-- Root application container -->
+    <div id="root"></div>
+
+    <!-- Database seed & helper -->
+    <script src="js/db.js"></script>
+
+    <!-- React Components -->
+    <script type="text/babel" src="js/components/AuthScreen.jsx"></script>
+    <script type="text/babel" src="js/components/DashboardView.jsx"></script>
+    <script type="text/babel" src="js/components/StudentsView.jsx"></script>
+    <script type="text/babel" src="js/components/AcademicsView.jsx"></script>
+    <script type="text/babel" src="js/components/AttendanceView.jsx"></script>
+    <script type="text/babel" src="js/components/FeesView.jsx"></script>
+    <script type="text/babel" src="js/components/MessagesView.jsx"></script>
+    <script type="text/babel" src="js/components/MeetingsView.jsx"></script>
+    <script type="text/babel" src="js/components/EventsView.jsx"></script>
+    <script type="text/babel" src="js/components/ReportsView.jsx"></script>
+    <script type="text/babel" src="js/components/AdminPanelView.jsx"></script>
+    <script type="text/babel" src="js/components/MainLayout.jsx"></script>
+
+    <!-- App Entry Point -->
+    <script type="text/babel" src="js/App.jsx"></script>
+</body>
+</html>

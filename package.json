@@ -1,0 +1,12 @@
+﻿{
+  "name": "educonnect-pro",
+  "version": "1.0.0",
+  "description": "EduConnect Pro - School Parent-Teacher Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["school-management", "parent-teacher-portal", "react"],
+  "author": "Aryan Tyagi",
+  "license": "MIT"
+}
